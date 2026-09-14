@@ -31,11 +31,10 @@ O projeto permite registrar receitas e despesas, acompanhar o saldo disponível 
 ## 📂 Estrutura do projeto
 
 ```text
-controle-financeiro/
+sistemaControleFinanceiro/
 │
 ├── main.py
 ├── funcoes.py
-└── movimentacoes.json
 ```
 
 ### `main.py`
@@ -45,10 +44,6 @@ Responsável pelo fluxo principal da aplicação, interação com o usuário e e
 ### `funcoes.py`
 
 Contém as funções responsáveis pelas principais operações do sistema, como cadastro, cálculo de saldo, listagem e manipulação dos dados.
-
-### `movimentacoes.json`
-
-Arquivo utilizado para armazenar as movimentações financeiras cadastradas.
 
 ## 🎯 Objetivo
 
